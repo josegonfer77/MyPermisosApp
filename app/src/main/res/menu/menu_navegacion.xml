@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="INFO">
+        <menu>
+            <item
+                android:orderInCategory="0"
+                android:title="Cŕeditos" />
+
+        </menu>
+    </item>
+
+    <item android:title="ACCIONES">
+        <menu>
+            <item
+                android:orderInCategory="15"
+                android:title="RED"
+                android:icon="@drawable/ic_perm_data_setting_black_24dp"/>
+            <item
+                android:orderInCategory="16"
+                android:title="CUENTAS"
+                android:icon="@drawable/ic_perm_data_setting_black_24dp"/>
+            <item
+                android:orderInCategory="17"
+                android:title="FOTOS"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+
+        </menu>
+    </item>
+
+</menu>
